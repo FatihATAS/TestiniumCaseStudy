@@ -20,7 +20,7 @@ public class ProductsPage {
        /*Math.random() : 0-1 arasında rastgele sayı üretir.
        Bu sayıyı ürün sayısı ile çarpar ve 1 eklersek ürünlerden rastgele bir ürün alabiliriz.
         */
-        int randomProductIndex = (int)(Math.random()*allProductsList.size()+1);
+        int randomProductIndex = (int)(Math.random()*allProductsList.size());
         allProductsList.get(randomProductIndex).click();
     }
     public void selectFirstProduct(){
