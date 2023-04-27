@@ -24,6 +24,7 @@ public class ExcelUtils {
             sheet=workbook.getSheetAt(sheetIndex);
         } catch (IOException e) {
             e.printStackTrace();
+            closeExcelFile();
         }
     }
     // Istedigimiz hucredeki veriyi almamizi saglar

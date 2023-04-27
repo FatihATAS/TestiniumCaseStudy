@@ -7,6 +7,7 @@ import UITestsBeymenCom.PageClasses.ProductsPage;
 import UITestsBeymenCom.PageClasses.SelectedProductPage;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,15 +21,16 @@ import utilities.ReusableMethods;
 
 public class BeymenTest {
     Logger logger;
+    WebDriver driver;
     @Before
     public void setUp(){
         PropertyConfigurator.configure("log4j.properties");
         logger = Logger.getLogger(TrelloAPITest.class.getName());
+        logger.info("Driver Set edilir");
+        driver = Driver.getDriver();
     }
     @Test
     public void beymenTest(){
-        logger.info("Driver Set edilir");
-        WebDriver driver = Driver.getDriver();
         logger.info("https://beymen.com sitesine gidilir");
         driver.get(ConfigReader.getProperties("urlBeymen"));
         HomePage hp = new HomePage(driver);
@@ -94,8 +96,13 @@ public class BeymenTest {
         bp.removeProductBtn.click();
         logger.info("Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır");
         Assert.assertTrue(bp.cartIsEmptyText.isDisplayed());
-        logger.info("Driver kapatılır");
-        driver.quit();
 
+
+    }
+
+    @After
+    public void tearDown() {
+        logger.info("Driver kapatılır");
+        Driver.closeDriver();
     }
 }

@@ -211,3 +211,174 @@
 2023-04-27 06:10:33 INFO  TrelloAPITest:93 - Ürün sepetten kaldırılır
 2023-04-27 06:10:33 INFO  TrelloAPITest:95 - Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır
 2023-04-27 06:10:34 INFO  TrelloAPITest:97 - Driver kapatılır
+2023-04-27 09:15:57 INFO  TrelloAPITest:36 - 'Token Bilgilerini Almak' için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:15:57 INFO  TrelloAPITest:38 - token bilgilerini almak için Request gönderilir
+2023-04-27 09:15:58 INFO  TrelloAPITest:40 - Response'un status kodun 200 olduğunu ve id'nin null olmadığını doğrulanır
+2023-04-27 09:15:59 INFO  TrelloAPITest:46 - 'Board Create' etmek için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:15:59 INFO  TrelloAPITest:48 - 'Board Create' etmek için Request gönderilir
+2023-04-27 09:16:00 INFO  TrelloAPITest:50 - Response'un status kodun 200 olduğunu ve id'nin null olmadığını doğrulanır
+2023-04-27 09:16:00 INFO  TrelloAPITest:52 - Response'dan gelen 'BoardID' değerini bir değişkene tanımlanır
+2023-04-27 09:16:00 INFO  TrelloAPITest:57 - 'ListID Create' etmek için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:16:00 INFO  TrelloAPITest:60 - 'ListID Create' etmek için Request gönderilir
+2023-04-27 09:16:01 INFO  TrelloAPITest:62 - Response'un status kodun 200 olduğunu ve id'nin null olmadığını doğrulanır
+2023-04-27 09:16:01 INFO  TrelloAPITest:64 - Response'dan gelen 'ListID' değerini bir değişkene tanımlanır
+2023-04-27 09:16:01 INFO  TrelloAPITest:77 - 1.Card Create' etmek için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:16:01 INFO  TrelloAPITest:79 - 1'.Card Create' etmek için Request gönderilir
+2023-04-27 09:16:01 INFO  TrelloAPITest:81 - Response'un status kodun 200 olduğunu ve id'nin null olmadığını doğrulanır
+2023-04-27 09:16:01 INFO  TrelloAPITest:83 - Response'dan gelen 1'.CardID' değerini listeye tanımlanır
+2023-04-27 09:16:01 INFO  TrelloAPITest:77 - 2.Card Create' etmek için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:16:01 INFO  TrelloAPITest:79 - 2'.Card Create' etmek için Request gönderilir
+2023-04-27 09:16:02 INFO  TrelloAPITest:81 - Response'un status kodun 200 olduğunu ve id'nin null olmadığını doğrulanır
+2023-04-27 09:16:02 INFO  TrelloAPITest:83 - Response'dan gelen 2'.CardID' değerini listeye tanımlanır
+2023-04-27 09:16:02 INFO  TrelloAPITest:90 - Rastgele Card seçmek için rastgele sayı üretilir(Min: 0 , Max:CardList'in içerisindeki Card Sayisi)
+2023-04-27 09:16:02 INFO  TrelloAPITest:92 - 'Card Update' işlemi için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:16:02 INFO  TrelloAPITest:95 - 'Card Update' etmek için Request gönderilir
+2023-04-27 09:16:03 INFO  TrelloAPITest:97 - Response'un status kodun 200 olduğunu ve CardName'in değiştiği doğrulanır
+2023-04-27 09:16:03 INFO  TrelloAPITest:104 - 'Card Delete' işlemi için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:16:03 INFO  TrelloAPITest:106 - 'Card Delete' etmek için Request gönderilir
+2023-04-27 09:16:04 INFO  TrelloAPITest:108 - Response'un status kodun 200 olduğu doğrulanır
+2023-04-27 09:16:04 INFO  TrelloAPITest:104 - 'Card Delete' işlemi için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:16:04 INFO  TrelloAPITest:106 - 'Card Delete' etmek için Request gönderilir
+2023-04-27 09:16:05 INFO  TrelloAPITest:108 - Response'un status kodun 200 olduğu doğrulanır
+2023-04-27 09:16:05 INFO  TrelloAPITest:115 - 'Board Delete' işlemi için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
+2023-04-27 09:16:05 INFO  TrelloAPITest:117 - 'Board Delete' etmek için Request gönderilir
+2023-04-27 09:16:06 INFO  TrelloAPITest:119 - Response'un status kodun 200 olduğu doğrulanır
+2023-04-27 19:39:34 INFO  TrelloAPITest:30 - Driver Set edilir
+2023-04-27 19:39:38 INFO  TrelloAPITest:32 - https://beymen.com sitesine gidilir
+2023-04-27 19:39:41 INFO  TrelloAPITest:35 - Çerezler kabul edilir
+2023-04-27 19:39:42 INFO  TrelloAPITest:37 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:39:42 INFO  TrelloAPITest:40 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:39:43 INFO  TrelloAPITest:48 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:39:43 INFO  TrelloAPITest:51 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:39:43 INFO  TrelloAPITest:53 - Arama kısmına 'şort' yazılır
+2023-04-27 19:39:43 INFO  TrelloAPITest:55 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:39:43 INFO  TrelloAPITest:57 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:39:43 WARN  TrelloAPITest:60 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:39:45 WARN  TrelloAPITest:62 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 19:39:46 INFO  TrelloAPITest:72 - Ürün Bilgileri txt uzantılı dosyaya yazdırılır
+2023-04-27 19:39:47 INFO  TrelloAPITest:79 - Ürün eklemek için beden seçimi ve sepete ekleme işlemleri yapılır
+2023-04-27 19:39:47 INFO  TrelloAPITest:82 - Ürünün sepete eklendiğini doğrulanır
+2023-04-27 19:39:47 INFO  TrelloAPITest:84 - Sepete gitmek için 'Sepete Git' butonuna basılır
+2023-04-27 19:39:48 INFO  TrelloAPITest:86 - Ürünün sepetteki fiyatı ile aynı olduğu doğrulanır
+2023-04-27 19:39:49 INFO  TrelloAPITest:89 - Ürün adeti artırma işlemi yapılır
+2023-04-27 19:39:49 INFO  TrelloAPITest:91 - Ürün adetinin 2 adet seçtiği doğrulanır
+2023-04-27 19:39:49 INFO  TrelloAPITest:93 - Ürün sepetten kaldırılır
+2023-04-27 19:39:49 INFO  TrelloAPITest:95 - Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır
+2023-04-27 19:39:49 INFO  TrelloAPITest:97 - Driver kapatılır
+2023-04-27 19:40:11 INFO  TrelloAPITest:30 - Driver Set edilir
+2023-04-27 19:40:14 INFO  TrelloAPITest:32 - https://beymen.com sitesine gidilir
+2023-04-27 19:40:18 INFO  TrelloAPITest:35 - Çerezler kabul edilir
+2023-04-27 19:40:19 INFO  TrelloAPITest:37 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:40:19 INFO  TrelloAPITest:40 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:40:19 INFO  TrelloAPITest:48 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:40:19 INFO  TrelloAPITest:51 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:40:19 INFO  TrelloAPITest:53 - Arama kısmına 'şort' yazılır
+2023-04-27 19:40:20 INFO  TrelloAPITest:55 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:40:20 INFO  TrelloAPITest:57 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:40:20 WARN  TrelloAPITest:60 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:40:22 WARN  TrelloAPITest:62 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 19:40:23 INFO  TrelloAPITest:72 - Ürün Bilgileri txt uzantılı dosyaya yazdırılır
+2023-04-27 19:40:24 INFO  TrelloAPITest:79 - Ürün eklemek için beden seçimi ve sepete ekleme işlemleri yapılır
+2023-04-27 19:40:24 INFO  TrelloAPITest:82 - Ürünün sepete eklendiğini doğrulanır
+2023-04-27 19:40:24 INFO  TrelloAPITest:84 - Sepete gitmek için 'Sepete Git' butonuna basılır
+2023-04-27 19:40:25 INFO  TrelloAPITest:86 - Ürünün sepetteki fiyatı ile aynı olduğu doğrulanır
+2023-04-27 19:40:26 INFO  TrelloAPITest:89 - Ürün adeti artırma işlemi yapılır
+2023-04-27 19:40:26 INFO  TrelloAPITest:91 - Ürün adetinin 2 adet seçtiği doğrulanır
+2023-04-27 19:40:26 INFO  TrelloAPITest:93 - Ürün sepetten kaldırılır
+2023-04-27 19:40:26 INFO  TrelloAPITest:95 - Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır
+2023-04-27 19:40:26 INFO  TrelloAPITest:97 - Driver kapatılır
+2023-04-27 19:40:44 INFO  TrelloAPITest:30 - Driver Set edilir
+2023-04-27 19:40:49 INFO  TrelloAPITest:32 - https://beymen.com sitesine gidilir
+2023-04-27 19:40:51 INFO  TrelloAPITest:35 - Çerezler kabul edilir
+2023-04-27 19:40:53 INFO  TrelloAPITest:37 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:40:53 INFO  TrelloAPITest:40 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:40:54 INFO  TrelloAPITest:48 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:40:54 INFO  TrelloAPITest:51 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:40:54 INFO  TrelloAPITest:53 - Arama kısmına 'şort' yazılır
+2023-04-27 19:40:54 INFO  TrelloAPITest:55 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:40:54 INFO  TrelloAPITest:57 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:40:54 WARN  TrelloAPITest:60 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:41:23 INFO  TrelloAPITest:30 - Driver Set edilir
+2023-04-27 19:41:26 INFO  TrelloAPITest:32 - https://beymen.com sitesine gidilir
+2023-04-27 19:41:28 INFO  TrelloAPITest:35 - Çerezler kabul edilir
+2023-04-27 19:41:30 INFO  TrelloAPITest:37 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:41:30 INFO  TrelloAPITest:40 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:41:31 INFO  TrelloAPITest:48 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:41:31 INFO  TrelloAPITest:51 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:41:31 INFO  TrelloAPITest:53 - Arama kısmına 'şort' yazılır
+2023-04-27 19:41:31 INFO  TrelloAPITest:55 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:41:31 INFO  TrelloAPITest:57 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:41:31 WARN  TrelloAPITest:60 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:41:33 WARN  TrelloAPITest:62 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 19:46:20 INFO  TrelloAPITest:30 - Driver Set edilir
+2023-04-27 19:46:24 INFO  TrelloAPITest:32 - https://beymen.com sitesine gidilir
+2023-04-27 19:46:27 INFO  TrelloAPITest:35 - Çerezler kabul edilir
+2023-04-27 19:46:29 INFO  TrelloAPITest:37 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:46:29 INFO  TrelloAPITest:40 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:46:30 INFO  TrelloAPITest:48 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:46:30 INFO  TrelloAPITest:51 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:46:30 INFO  TrelloAPITest:53 - Arama kısmına 'şort' yazılır
+2023-04-27 19:46:30 INFO  TrelloAPITest:55 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:46:30 INFO  TrelloAPITest:57 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:46:30 WARN  TrelloAPITest:60 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:46:32 WARN  TrelloAPITest:62 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 19:57:57 INFO  TrelloAPITest:29 - Driver Set edilir
+2023-04-27 19:58:00 INFO  TrelloAPITest:34 - https://beymen.com sitesine gidilir
+2023-04-27 19:58:03 INFO  TrelloAPITest:37 - Çerezler kabul edilir
+2023-04-27 19:58:05 INFO  TrelloAPITest:39 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:58:05 INFO  TrelloAPITest:42 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:58:06 INFO  TrelloAPITest:50 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:58:06 INFO  TrelloAPITest:53 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:58:06 INFO  TrelloAPITest:55 - Arama kısmına 'şort' yazılır
+2023-04-27 19:58:06 INFO  TrelloAPITest:57 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:58:06 INFO  TrelloAPITest:59 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:58:06 WARN  TrelloAPITest:62 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:58:08 WARN  TrelloAPITest:64 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 19:58:08 INFO  TrelloAPITest:105 - Driver kapatılır
+2023-04-27 19:58:33 INFO  TrelloAPITest:29 - Driver Set edilir
+2023-04-27 19:58:37 INFO  TrelloAPITest:34 - https://beymen.com sitesine gidilir
+2023-04-27 19:58:39 INFO  TrelloAPITest:37 - Çerezler kabul edilir
+2023-04-27 19:58:42 INFO  TrelloAPITest:39 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:58:42 INFO  TrelloAPITest:42 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:58:42 INFO  TrelloAPITest:50 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:58:42 INFO  TrelloAPITest:53 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:58:42 INFO  TrelloAPITest:55 - Arama kısmına 'şort' yazılır
+2023-04-27 19:58:42 INFO  TrelloAPITest:57 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:58:42 INFO  TrelloAPITest:59 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:58:42 WARN  TrelloAPITest:62 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:58:44 INFO  TrelloAPITest:110 - Driver kapatılır
+2023-04-27 19:58:58 INFO  TrelloAPITest:29 - Driver Set edilir
+2023-04-27 19:59:01 INFO  TrelloAPITest:34 - https://beymen.com sitesine gidilir
+2023-04-27 19:59:04 INFO  TrelloAPITest:37 - Çerezler kabul edilir
+2023-04-27 19:59:07 INFO  TrelloAPITest:39 - Anasayfada olunduğu doğrulanır
+2023-04-27 19:59:07 INFO  TrelloAPITest:42 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 19:59:07 INFO  TrelloAPITest:50 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 19:59:07 INFO  TrelloAPITest:53 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 19:59:07 INFO  TrelloAPITest:55 - Arama kısmına 'şort' yazılır
+2023-04-27 19:59:07 INFO  TrelloAPITest:57 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 19:59:07 INFO  TrelloAPITest:59 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 19:59:08 WARN  TrelloAPITest:62 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 19:59:08 WARN  TrelloAPITest:63 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 19:59:09 INFO  TrelloAPITest:109 - Driver kapatılır
+2023-04-27 20:00:05 INFO  TrelloAPITest:29 - Driver Set edilir
+2023-04-27 20:00:08 INFO  TrelloAPITest:34 - https://beymen.com sitesine gidilir
+2023-04-27 20:00:10 INFO  TrelloAPITest:37 - Çerezler kabul edilir
+2023-04-27 20:00:11 INFO  TrelloAPITest:39 - Anasayfada olunduğu doğrulanır
+2023-04-27 20:00:11 INFO  TrelloAPITest:42 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 20:00:12 INFO  TrelloAPITest:50 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 20:00:12 INFO  TrelloAPITest:53 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 20:00:12 INFO  TrelloAPITest:55 - Arama kısmına 'şort' yazılır
+2023-04-27 20:00:12 INFO  TrelloAPITest:57 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 20:00:12 INFO  TrelloAPITest:59 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-27 20:00:12 WARN  TrelloAPITest:62 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 20:00:14 WARN  TrelloAPITest:64 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 20:00:15 INFO  TrelloAPITest:74 - Ürün Bilgileri txt uzantılı dosyaya yazdırılır
+2023-04-27 20:00:16 INFO  TrelloAPITest:81 - Ürün eklemek için beden seçimi ve sepete ekleme işlemleri yapılır
+2023-04-27 20:00:16 INFO  TrelloAPITest:84 - Ürünün sepete eklendiğini doğrulanır
+2023-04-27 20:00:17 INFO  TrelloAPITest:86 - Sepete gitmek için 'Sepete Git' butonuna basılır
+2023-04-27 20:00:18 INFO  TrelloAPITest:88 - Ürünün sepetteki fiyatı ile aynı olduğu doğrulanır
+2023-04-27 20:00:18 INFO  TrelloAPITest:91 - Ürün adeti artırma işlemi yapılır
+2023-04-27 20:00:18 INFO  TrelloAPITest:93 - Ürün adetinin 2 adet seçtiği doğrulanır
+2023-04-27 20:00:18 INFO  TrelloAPITest:95 - Ürün sepetten kaldırılır
+2023-04-27 20:00:18 INFO  TrelloAPITest:97 - Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır
+2023-04-27 20:00:19 INFO  TrelloAPITest:105 - Driver kapatılır
