@@ -13,12 +13,13 @@ import java.util.Map;
 public class ExcelUtils {
     private Workbook workbook;
     private Sheet sheet;
+    private FileInputStream fis;
     private String path;
 
     public ExcelUtils(String path, int sheetIndex){
         this.path=path;
         try {
-            FileInputStream fis=new FileInputStream(path);
+            fis=new FileInputStream(path);
             workbook= WorkbookFactory.create(fis);
             sheet=workbook.getSheetAt(sheetIndex);
         } catch (IOException e) {
@@ -36,4 +37,14 @@ public class ExcelUtils {
             throw new RuntimeException(e);
         }
     }
+    public void closeExcelFile(){
+        try {
+            workbook.close();
+            fis.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
 }

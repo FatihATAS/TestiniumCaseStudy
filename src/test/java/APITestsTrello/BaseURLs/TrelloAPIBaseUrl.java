@@ -3,7 +3,6 @@ package APITestsTrello.BaseURLs;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import utilities.ConfigReader;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,7 +32,6 @@ public class TrelloAPIBaseUrl {
     public void setListID(String listID) {
         TrelloAPIBaseUrl.listID = listID;
     }
-
 
     public void addCartIDToList(String cardID){
         cardIDList.add(cardID);

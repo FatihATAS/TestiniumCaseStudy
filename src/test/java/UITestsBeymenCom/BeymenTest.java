@@ -48,6 +48,8 @@ public class BeymenTest {
         logger.info("Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır");
         String firstSearchingProduct = excelUtils.getCellData(0,0);
         String secoundSearchingProduct = excelUtils.getCellData(0,1);
+        logger.info("Datalar alındaktan sonra Excel kapatılır");
+        excelUtils.closeExcelFile();
         logger.info("Arama kısmına 'şort' yazılır");
         hp.inputToSearchArea(firstSearchingProduct);
         logger.info("Arama kısmındaki 'şort kelimesi silinir'");
@@ -63,8 +65,9 @@ public class BeymenTest {
         ÖNEMLİ NOT
         Verilen task te ürün sayısının artırılması isteniyor.
         Ancak maalesef her üründen 2 adet bulunmamaktadır.
-        Testlerde sonucunun yanıltıcı olmaması için
+        Test sonuçlarının yanıltıcı olmaması için
         test kodlarında bu method kullanılmıştır.
+        Ancak ProductsPage Class'ında rastgele ürün seçim methodu tanımlanmıştır.
          */
         logger.info("Ürün Bilgileri txt uzantılı dosyaya yazdırılır");
         SelectedProductPage spp = new SelectedProductPage(driver);

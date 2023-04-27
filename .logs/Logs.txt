@@ -189,3 +189,25 @@
 2023-04-27 05:42:51 INFO  TrelloAPITest:90 - Ürün sepetten kaldırılır
 2023-04-27 05:42:51 INFO  TrelloAPITest:92 - Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır
 2023-04-27 05:42:51 INFO  TrelloAPITest:94 - Driver kapatılır
+2023-04-27 06:10:20 INFO  TrelloAPITest:30 - Driver Set edilir
+2023-04-27 06:10:22 INFO  TrelloAPITest:32 - https://beymen.com sitesine gidilir
+2023-04-27 06:10:25 INFO  TrelloAPITest:35 - Çerezler kabul edilir
+2023-04-27 06:10:26 INFO  TrelloAPITest:37 - Anasayfada olunduğu doğrulanır
+2023-04-27 06:10:26 INFO  TrelloAPITest:40 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-27 06:10:26 INFO  TrelloAPITest:48 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-27 06:10:26 INFO  TrelloAPITest:51 - Datalar alındaktan sonra Excel kapatılır
+2023-04-27 06:10:26 INFO  TrelloAPITest:53 - Arama kısmına 'şort' yazılır
+2023-04-27 06:10:27 INFO  TrelloAPITest:55 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-27 06:10:27 INFO  TrelloAPITest:57 - Arama kısmına 'gömlek' yazılır
+2023-04-27 06:10:27 WARN  TrelloAPITest:60 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-27 06:10:29 WARN  TrelloAPITest:62 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-27 06:10:30 INFO  TrelloAPITest:72 - Ürün Bilgileri txt uzantılı dosyaya yazdırılır
+2023-04-27 06:10:31 INFO  TrelloAPITest:79 - Ürün eklemek için beden seçimi ve sepete ekleme işlemleri yapılır
+2023-04-27 06:10:31 INFO  TrelloAPITest:82 - Ürünün sepete eklendiğini doğrulanır
+2023-04-27 06:10:31 INFO  TrelloAPITest:84 - Sepete gitmek için 'Sepete Git' butonuna basılır
+2023-04-27 06:10:32 INFO  TrelloAPITest:86 - Ürünün sepetteki fiyatı ile aynı olduğu doğrulanır
+2023-04-27 06:10:33 INFO  TrelloAPITest:89 - Ürün adeti artırma işlemi yapılır
+2023-04-27 06:10:33 INFO  TrelloAPITest:91 - Ürün adetinin 2 adet seçtiği doğrulanır
+2023-04-27 06:10:33 INFO  TrelloAPITest:93 - Ürün sepetten kaldırılır
+2023-04-27 06:10:33 INFO  TrelloAPITest:95 - Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır
+2023-04-27 06:10:34 INFO  TrelloAPITest:97 - Driver kapatılır

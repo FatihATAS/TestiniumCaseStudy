@@ -11,9 +11,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import utilities.ConfigReader;
-
 import java.util.Random;
-
 import static io.restassured.RestAssured.given;
 /*
 Test Methodlarına öncelik tanımlamak için @FixMethodOrder annotations ile method isimleri sıralandı.
