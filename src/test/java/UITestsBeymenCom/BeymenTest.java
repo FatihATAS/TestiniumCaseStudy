@@ -54,7 +54,7 @@ public class BeymenTest {
         hp.inputToSearchArea(firstSearchingProduct);
         logger.info("Arama kısmındaki 'şort kelimesi silinir'");
         hp.searchArea.clear();
-        logger.info("Arama kısmına 'gömlek' yazılır");
+        logger.info("Arama kısmına 'gömlek' yazılır ve Enter'a basılır");
         hp.inputToSearchArea(secoundSearchingProduct+Keys.ENTER);
         ProductsPage pp = new ProductsPage(driver);
         logger.warn("Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir");
