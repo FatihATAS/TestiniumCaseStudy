@@ -26,7 +26,7 @@ public class BeymenTest {
         logger = Logger.getLogger(TrelloAPITest.class.getName());
     }
     @Test
-    public void beymenTest() throws InterruptedException {
+    public void beymenTest(){
         logger.info("Driver Set edilir");
         WebDriver driver = Driver.getDriver();
         logger.info("https://beymen.com sitesine gidilir");
