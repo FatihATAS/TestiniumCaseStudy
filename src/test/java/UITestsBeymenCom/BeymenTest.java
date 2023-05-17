@@ -1,34 +1,19 @@
 package UITestsBeymenCom;
-
-import APITestsTrello.TrelloAPITest;
+import UITestsBeymenCom.BasePage.BasePage;
 import UITestsBeymenCom.PageClasses.BasketPage;
 import UITestsBeymenCom.PageClasses.HomePage;
 import UITestsBeymenCom.PageClasses.ProductsPage;
 import UITestsBeymenCom.PageClasses.SelectedProductPage;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
-import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import utilities.ConfigReader;
-import utilities.Driver;
 import utilities.ExcelUtils;
 import utilities.ReusableMethods;
 
 
-public class BeymenTest {
-    Logger logger;
-    WebDriver driver;
-    @Before
-    public void setUp(){
-        PropertyConfigurator.configure("log4j.properties");
-        logger = Logger.getLogger(TrelloAPITest.class.getName());
-        logger.info("Driver Set edilir");
-        driver = Driver.getDriver();
-    }
+public class BeymenTest extends BasePage {
+
     @Test
     public void beymenTest(){
         logger.info("https://beymen.com sitesine gidilir");
@@ -97,12 +82,6 @@ public class BeymenTest {
         logger.info("Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır");
         Assert.assertTrue(bp.cartIsEmptyText.isDisplayed());
 
-
     }
 
-    @After
-    public void tearDown() {
-        logger.info("Driver kapatılır");
-        Driver.closeDriver();
-    }
 }

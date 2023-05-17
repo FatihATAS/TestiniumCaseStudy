@@ -534,3 +534,41 @@
 2023-04-27 20:16:13 INFO  TestiniumCaseStudy:115 - 'Board Delete' işlemi için URL'i set eder ve Endpoint için path ve query parametrelerini girilir
 2023-04-27 20:16:13 INFO  TestiniumCaseStudy:117 - 'Board Delete' etmek için Request gönderilir
 2023-04-27 20:16:15 INFO  TestiniumCaseStudy:119 - Response'un status kodun 200 olduğu doğrulanır
+2023-04-28 13:44:17 INFO  TestiniumCaseStudy:29 - Driver Set edilir
+2023-04-28 13:44:21 INFO  TestiniumCaseStudy:34 - https://beymen.com sitesine gidilir
+2023-04-28 13:44:23 INFO  TestiniumCaseStudy:37 - Çerezler kabul edilir
+2023-04-28 13:44:25 INFO  TestiniumCaseStudy:39 - Anasayfada olunduğu doğrulanır
+2023-04-28 13:44:25 INFO  TestiniumCaseStudy:42 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-28 13:44:25 INFO  TestiniumCaseStudy:50 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-28 13:44:25 INFO  TestiniumCaseStudy:53 - Datalar alındaktan sonra Excel kapatılır
+2023-04-28 13:44:25 INFO  TestiniumCaseStudy:55 - Arama kısmına 'şort' yazılır
+2023-04-28 13:44:26 INFO  TestiniumCaseStudy:57 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-28 13:44:26 INFO  TestiniumCaseStudy:59 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-28 13:44:26 WARN  TestiniumCaseStudy:62 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-28 13:44:28 WARN  TestiniumCaseStudy:64 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-28 13:44:29 INFO  TestiniumCaseStudy:74 - Ürün Bilgileri txt uzantılı dosyaya yazdırılır
+2023-04-28 13:44:29 INFO  TestiniumCaseStudy:81 - Ürün eklemek için beden seçimi ve sepete ekleme işlemleri yapılır
+2023-04-28 13:44:30 INFO  TestiniumCaseStudy:84 - Ürünün sepete eklendiğini doğrulanır
+2023-04-28 13:44:37 INFO  TestiniumCaseStudy:105 - Driver kapatılır
+2023-04-28 13:44:43 INFO  TestiniumCaseStudy:29 - Driver Set edilir
+2023-04-28 13:44:45 INFO  TestiniumCaseStudy:34 - https://beymen.com sitesine gidilir
+2023-04-28 13:44:48 INFO  TestiniumCaseStudy:37 - Çerezler kabul edilir
+2023-04-28 13:44:50 INFO  TestiniumCaseStudy:39 - Anasayfada olunduğu doğrulanır
+2023-04-28 13:44:50 INFO  TestiniumCaseStudy:42 - Excel'den veri alınacağı için dosya yolu tanımlanır ve verilerin bulunduğu sheetIndex girilir
+2023-04-28 13:44:50 INFO  TestiniumCaseStudy:50 - Excel'den alınacak veriler (şort , gömlek) String değişkeni olarak tanımlanır
+2023-04-28 13:44:50 INFO  TestiniumCaseStudy:53 - Datalar alındaktan sonra Excel kapatılır
+2023-04-28 13:44:50 INFO  TestiniumCaseStudy:55 - Arama kısmına 'şort' yazılır
+2023-04-28 13:44:51 INFO  TestiniumCaseStudy:57 - Arama kısmındaki 'şort kelimesi silinir'
+2023-04-28 13:44:51 INFO  TestiniumCaseStudy:59 - Arama kısmına 'gömlek' yazılır ve Enter'a basılır
+2023-04-28 13:44:51 WARN  TestiniumCaseStudy:62 - Sayfadaki bütün ürünlerin ekrana gelmesi için son ürünün yüklenmesi beklenir
+2023-04-28 13:44:53 WARN  TestiniumCaseStudy:64 - Sayfadaki ürünlerden rastgele seçim yapılır
+2023-04-28 13:44:54 INFO  TestiniumCaseStudy:74 - Ürün Bilgileri txt uzantılı dosyaya yazdırılır
+2023-04-28 13:44:54 INFO  TestiniumCaseStudy:81 - Ürün eklemek için beden seçimi ve sepete ekleme işlemleri yapılır
+2023-04-28 13:44:55 INFO  TestiniumCaseStudy:84 - Ürünün sepete eklendiğini doğrulanır
+2023-04-28 13:44:55 INFO  TestiniumCaseStudy:86 - Sepete gitmek için 'Sepete Git' butonuna basılır
+2023-04-28 13:44:56 INFO  TestiniumCaseStudy:88 - Ürünün sepetteki fiyatı ile aynı olduğu doğrulanır
+2023-04-28 13:44:57 INFO  TestiniumCaseStudy:91 - Ürün adeti artırma işlemi yapılır
+2023-04-28 13:44:57 INFO  TestiniumCaseStudy:93 - Ürün adetinin 2 adet seçtiği doğrulanır
+2023-04-28 13:44:57 INFO  TestiniumCaseStudy:95 - Ürün sepetten kaldırılır
+2023-04-28 13:44:57 INFO  TestiniumCaseStudy:97 - Ürünün sepetten silindiği ve sepetin boş olduğu doğrulanır
+2023-04-28 13:44:57 INFO  TestiniumCaseStudy:105 - Driver kapatılır
